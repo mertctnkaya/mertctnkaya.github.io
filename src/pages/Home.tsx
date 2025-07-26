@@ -9,7 +9,7 @@ const Home = () => {
 	return (
 		<section className="bg-linear-to-tr from-black via-red-950 to-red-600 min-h-screen font-inter flex flex-col justify-center items-center px-6 py-16 font-medium bg-neutral-800 text-neutral-300">
 			<img
-				src="/public/dexter.png"
+				src="/dexter.png"
 				alt="blood splash"
 				className="absolute top-10 left-[10%] w-[800px] h-[600px] opacity-30 blur-md pointer-events-none select-none object-cover"
 			/>
