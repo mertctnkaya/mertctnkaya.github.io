@@ -4,10 +4,12 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Certificates from "./pages/Certificates";
 import Contact from "./pages/Contact";
+import Navbar from "./components/layouts/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
+	  <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
