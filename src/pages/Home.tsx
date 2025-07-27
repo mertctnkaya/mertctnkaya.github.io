@@ -2,27 +2,37 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FiDownload } from "react-icons/fi";
 import { useLanguage } from "../i18n/LanguageProvider";
 import translations from "../i18n/translates";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
 	const { language } = useLanguage();
 	const t = translations[language].home;
+
 	return (
-		<section className="bg-linear-to-tr from-black via-red-950 to-red-600 min-h-screen font-inter flex flex-col justify-center items-center px-6 py-16 font-medium bg-neutral-800 text-neutral-300">
+		<section className="bg-gradient-to-tr from-black via-red-950 to-red-600 min-h-screen font-inter flex flex-col justify-center items-center px-6 py-16 font-medium text-neutral-300 w-full overflow-hidden relative">
 			<img
 				src="/dexter.png"
 				alt="blood splash"
-				className="absolute top-10 left-[10%] w-[800px] h-[600px] opacity-30 blur-md pointer-events-none select-none object-cover"
+				className="absolute top-0 left-0 w-full h-full opacity-20 blur-md pointer-events-none select-none object-cover"
 			/>
-			<div className="max-w-3xl w-full flex flex-col items-start gap-6 text-left">
+			<div className="max-w-3xl w-full flex flex-col items-start gap-6 text-left relative z-10">
 				<h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight">
-					{t.title} <span className="text-red-600 text-shadow-black text-shadow-lg">Mertcan Çetinkaya</span>
+					{t.title}{" "}
+					<span className="text-red-600 text-shadow-black text-shadow-lg">
+						<Typewriter
+							options={{
+								strings: ["Mertcan Çetinkaya", "m3rt", "Dexter Morgan", "Mert", "Switzerland", "Brian Moser", "Kyle Butler", "Jim Lindsay", "Daryl Tucker"],
+								autoStart: true,
+								loop: true,
+								delay: 75,
+								cursor: "|",
+								cursorClassName: "text-red-600 animate-pulse",
+								wrapperClassName: "text-red-600 text-shadow-black text-shadow-lg"
+							}}
+						/>
+					</span>
 				</h1>
-				<p className="text-lg sm:text-xl text-neutral-400">
-					{t.desc}
-					{/* Software & CNC Enthusiast. Passionate about creating elegant technical solutions with C, JS, and React. Currently
-					studying at <span className="text-white font-medium">42 Kocaeli</span> and blending my knowledge of software with
-					<span className="text-white font-medium"> CNC Lathe/Torna</span> programming and operating. */}
-				</p>
+				<p className="text-lg sm:text-xl text-neutral-400">{t.desc}</p>
 				<div className="flex flex-wrap gap-4 mt-4">
 					<a
 						href="/cv.pdf"
