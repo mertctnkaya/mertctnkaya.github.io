@@ -62,6 +62,7 @@ const translations = {
 					title: "Personal Portfolio",
 					desc: "Modern React portfolio built with TypeScript and Tailwind CSS.",
 					tech: ["React.js", "TypeScript", "TailwindCSS"],
+					link: "https://www.github.com/mertctnkaya/mertctnkaya.github.io"
 				},
 			],
 		},
