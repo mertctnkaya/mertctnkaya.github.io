@@ -19,7 +19,7 @@ const translations = {
 		},
 		about: {
 			title: {
-				about: "About Me\\rt",
+				about: "About Me",
 				skills: "Skills",
 				exp: "Experience",
 				edu: "Education"
