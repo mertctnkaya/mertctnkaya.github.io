@@ -27,5 +27,4 @@ export const LanguageProvider = ({ children }: { children: React.ReactNode }) =>
   );
 };
 
-// Hook ile kolayca eriş
 export const useLanguage = () => useContext(LanguageContext);
