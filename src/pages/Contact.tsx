@@ -1,6 +1,6 @@
 import { useLanguage } from "../i18n/LanguageProvider";
 import translations from "../i18n/translates";
-import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const Contact = () => {
 	const { language } = useLanguage();
