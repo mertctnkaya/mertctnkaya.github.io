@@ -22,7 +22,7 @@ const translations = {
 				about: "About Me",
 				skills: "Skills",
 				exp: "Experience",
-				edu: "Education"
+				edu: "Education",
 			},
 			desc: `I'm a programming student at 42 Kocaeli and Atatürk University. I have hands-on experience in C, C#, JavaScript, React, Node.js, and aiming for extra job experience in CNC Lathe Programming and Operating. I completed an IT internship at Autoliv, where I provided technical support and learned about corporate workflows. I am passionate about combining software development with manufacturing technologies.`,
 			skills: [
@@ -62,7 +62,7 @@ const translations = {
 					title: "Personal Portfolio",
 					desc: "Modern React portfolio built with TypeScript and Tailwind CSS.",
 					tech: ["React.js", "TypeScript", "TailwindCSS"],
-				}
+				},
 			],
 		},
 		certificates: {
@@ -113,7 +113,7 @@ const translations = {
 				about: "Hakkımda",
 				skills: "Beceriler",
 				exp: "Deneyimler",
-				edu: "Eğitim"
+				edu: "Eğitim",
 			},
 			desc: `42 Kocaeli ve Atatürk Üniversitesi'nde programlama öğrencisiyim. C, C#, JavaScript, React, Node.js konularında deneyimim var. Autoliv'de IT stajı yaptım, teknik destek sağladım ve kurumsal işleyişi öğrendim. Yazılım geliştirme ile CNC torna teknolojilerini birleştirmeyi amaçlıyorum.`,
 			skills: [
@@ -153,8 +153,8 @@ const translations = {
 					title: "Kişisel Portfolyo",
 					desc: "React.ts ve Tailwind CSS ile hazırlanmış modern portfolyo.",
 					tech: ["React", "TypeScript", "TailwindCSS", "Vite"],
-					link: "https://github.com/mertctnkaya/mertctnkaya.github.io/"
-				}
+					link: "https://github.com/mertctnkaya/mertctnkaya.github.io/",
+				},
 			],
 		},
 		certificates: {

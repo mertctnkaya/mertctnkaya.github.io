@@ -1,9 +1,9 @@
 {
-  "name": "mertce",
+  "name": "portfolio-react",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.5.0",
   "type": "module",
-  "homepage": "https://mertctnkaya.github.io/mertce",
+  "homepage": "https://mertctnkaya.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
