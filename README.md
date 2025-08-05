@@ -6,7 +6,7 @@ This portfolio was initially developed using **React.ts + Vite** and has now mig
 
 ### 📦 Versions
 - [`v1.0.0`](https://github.com/mertctnkaya/mertctnkaya.github.io/releases/tag/v1.0.0): React (GitHub Pages)
-- `main`: Next.js (Live at [mertctnkaya.vercel.app](https://mertctnkaya.vercel.app))
+- `main`: Next.js (Live at soon)
 
 ### 🔧 Stack
 - React + Vite
